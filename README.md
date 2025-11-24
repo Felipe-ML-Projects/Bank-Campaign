@@ -3,8 +3,8 @@ Classifying whether bank customers' will subscribe to a bank term deposit based 
 
 A couple classification algorithms were developed:
 1) Logistic Regression
-2) K Nearest Neighbors
+2) K Nearest Neighbor
 3) XGBoost
-4) Decision Trees
+4) Decision Tree
 5) Random Forest
 6) Neural Network
