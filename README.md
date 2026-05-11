@@ -24,7 +24,7 @@ A couple classification algorithms were developed:
 - [Dependencies](#-dependencies)
 - [Results Summary](#-results-summary)
 
-# 💼 Business Case
+# Business Case
 
 A retail bank runs recurring **telephone-based marketing campaigns** to promote term deposit products to its existing customer base. A term deposit is a fixed-interest financial product where a customer locks in a sum of money for a defined period in exchange for a guaranteed return.
 
@@ -107,7 +107,7 @@ bank-campaign/
 
 ---
 
-## 🔧 Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied before model training:
 
@@ -276,19 +276,26 @@ pip install pandas numpy scikit-learn xgboost torch tensorflow matplotlib seabor
 # Results Summary
 
 | Model | Train Accuracy | Test Accuracy | Notes |
+
 | Logistic Regression - ~90% | AUC ≈ 0.80; strong interpretable baseline |
+
 | Decision Tree | Tuned via GridSearchCV - Best params selected via 5-fold CV |
+
 | Random Forest - GridSearchCV tuned; ensemble robustness |
+
 | XGBoost - Default params; strong gradient boosting baseline |
+
 | K-NN (k=5) - Euclidean distance; feature scaling required |
+
 | Neural Network (PyTorch) 2-layer ANN; impacted by class imbalance |
+
 | Neural Network (TensorFlow) Early stopping applied; scaled input required |
 
 > **Note:** Exact numeric results depend on the runtime environment and any randomness in model fitting. Run the notebook to reproduce outputs.
 
 ---
 
-#Future Work
+# Future Work
 
 - [ ] Apply **SMOTE** or **class weighting** to address class imbalance across all models
 - [ ] Remove `duration` from features for a production-ready pre-call scoring model
@@ -299,7 +306,7 @@ pip install pandas numpy scikit-learn xgboost torch tensorflow matplotlib seabor
 
 ---
 
-## 📄 License
+# License
 
 This project is for educational and portfolio purposes. The dataset is publicly available via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 
