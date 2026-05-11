@@ -10,7 +10,7 @@ A couple classification algorithms were developed:
 5) Random Forest
 6) Neural Network
 
-# 📋 Table of Contents
+# Table of Contents
 
 - [Business Case](#-business-case)
 - [Problem Statement](#-problem-statement)
@@ -94,7 +94,7 @@ By applying machine learning to historical campaign data, the bank can:
 
 The dataset exhibits significant class imbalance — the majority of customers do **not** subscribe. This was especially impactful for the Neural Network models, which required careful handling via scaled inputs and early stopping.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bank-campaign/
@@ -137,7 +137,7 @@ The following preprocessing steps were applied before model training:
 
 ---
 
-## 🤖 Models Developed
+## Models Developed
 
 Six classification algorithms were developed and evaluated:
 
