@@ -276,13 +276,13 @@ pip install pandas numpy scikit-learn xgboost torch tensorflow matplotlib seabor
 # Results Summary
 
 | Model | Train Accuracy | Test Accuracy | Notes |
-| Logistic Regression | — | ~90% | AUC ≈ 0.80; strong interpretable baseline |
-| Decision Tree | Tuned via GridSearchCV | — | Best params selected via 5-fold CV |
-| Random Forest | — | — | GridSearchCV tuned; ensemble robustness |
-| XGBoost | — | — | Default params; strong gradient boosting baseline |
-| K-NN (k=5) | — | — | Euclidean distance; feature scaling required |
-| Neural Network (PyTorch) | — | — | 2-layer ANN; impacted by class imbalance |
-| Neural Network (TensorFlow) | — | — | Early stopping applied; scaled input required |
+| Logistic Regression - ~90% | AUC ≈ 0.80; strong interpretable baseline |
+| Decision Tree | Tuned via GridSearchCV - Best params selected via 5-fold CV |
+| Random Forest - GridSearchCV tuned; ensemble robustness |
+| XGBoost - Default params; strong gradient boosting baseline |
+| K-NN (k=5) - Euclidean distance; feature scaling required |
+| Neural Network (PyTorch) 2-layer ANN; impacted by class imbalance |
+| Neural Network (TensorFlow) Early stopping applied; scaled input required |
 
 > **Note:** Exact numeric results depend on the runtime environment and any randomness in model fitting. Run the notebook to reproduce outputs.
 
